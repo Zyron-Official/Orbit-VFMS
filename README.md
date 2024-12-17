@@ -7,7 +7,7 @@ Orbit-VFMS is an open-source 'Virtual File Management System' library for Androi
 
 ## License
 ```
-Copyright 2024 Zyron Official.
+Copyright 2024 Zyron, Official.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
