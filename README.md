@@ -3,7 +3,7 @@ Orbit-VFMS is an open-source 'Virtual File Management System' library for Androi
 
 > [!WARNING]
 > 
-> **This Project is incomplete and still is under development.**
+> **This Project is incomplete and is under development.**
 
 ## License
 ```
