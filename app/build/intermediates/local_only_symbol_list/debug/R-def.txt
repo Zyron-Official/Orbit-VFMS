@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_application_settings
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_navigate_up
+font font
+id application_settings
+id drawer_layout
+id file_list_view
+id file_tree_view
+id fragment_container
+id navigation_view
+id scroll_view
+id select_directory
+id switchWidget
+id toolbar
+layout activity_main
+layout activity_preferences
+layout layout_material_switch_style
+menu menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style AppTheme.SwitchPreference
+xml backup_rules
+xml data_extraction_rules
+xml preferences

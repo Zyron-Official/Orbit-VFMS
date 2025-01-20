@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orbit-VFMS</string>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0B58CE</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#D3E3FD</item>
+        <item name="colorOnPrimaryContainer">#051C48</item>
+        <item name="colorSecondary">#0B58CE</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#D3E3FD</item>
+        <item name="colorOnSecondaryContainer">#051C48</item>
+        <item name="colorTertiary">#1C863B</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
+        <item name="colorTertiaryContainer">#C3EED0</item>
+        <item name="colorOnTertiaryContainer">#072710</item>
+        <item name="colorError">#BA1A1A</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorErrorContainer">#FFDAD7</item>
+        <item name="colorOnErrorContainer">#410102</item>
+        <item name="android:colorBackground">#F9F8FE</item>
+        <item name="colorOnBackground">#181B22</item>
+        <item name="colorSurface">#F9F8FE</item>
+        <item name="colorOnSurface">#181B22</item>
+        <item name="colorSurfaceVariant">#F9F8FE</item>
+        <item name="colorOnSurfaceVariant">#2D3037</item>
+        <item name="colorOutline">#737685</item>
+        <item name="colorOutlineVariant">#C3C6D7</item>
+        <item name="colorSurfaceInverse">#2D3037</item>
+        <item name="colorOnSurfaceInverse">#F0F0FA</item>
+        <item name="colorPrimaryInverse">#D4E2FF</item>
+        <item name="colorSurfaceDim">#D9D9E3</item>
+        <item name="colorSurfaceBright">#F9F8FE</item>
+        <item name="colorSurfaceContainerLowest">#FFFFFF</item>
+        <item name="colorSurfaceContainerLow">#F3F3FD</item>
+        <item name="colorSurfaceContainer">#EDEDF7</item>
+        <item name="colorSurfaceContainerHigh">#E7E7F1</item>
+        <item name="colorSurfaceContainerHighest">#E2E2EC</item>
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <item name="fontFamily">@font/font</item>
+        <item name="android:fontFamily">@font/font</item>
+        
+        <item name="switchPreferenceCompatStyle">@style/AppTheme.SwitchPreference</item>        
+    </style>
+    <style name="AppTheme.SwitchPreference" parent="Preference.SwitchPreference.Material">
+        <item name="android:widgetLayout">@layout/layout_material_switch_style</item>
+    </style>
+</resources>

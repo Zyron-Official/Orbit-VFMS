@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FileTreeView">
+        <attr format="integer" name="recyclerItemViewCount"/>
+        <attr format="boolean" name="recyclerItemViewEnabled"/>
+        <attr format="integer" name="itemViewCacheSize"/>
+        <attr format="boolean" name="itemViewCachingEnabled"/>
+        <attr format="integer" name="fileMapMaxSize"/>
+        <attr format="boolean" name="fileMapEnabled"/> 
+        <attr format="enum" name="fileTreeAnimation">
+            <enum name="FallDown" value="0"/>
+            <enum name="RotateIn" value="1"/>
+            <enum name="ScaleUp" value="2"/>
+            <enum name="SlideIn" value="3"/>
+            <enum name="Default" value="4"/>
+        </attr>
+        <attr format="boolean" name="fileTreeAnimationEnabled"/>
+    </declare-styleable>
+</resources>

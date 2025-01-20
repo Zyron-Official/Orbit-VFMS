@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory app:title="Application Configuration"
+        app:iconSpaceReserved="false">
+        <SwitchPreferenceCompat
+            app:key="dynamic_colors"
+            app:title="Dynamic Colors"
+            android:singleLineTitle="true"
+            app:summary="To apply dynamic colors (Restart needed for changes)." 
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="dark_mode"
+            app:title="Dark Mode"
+            android:singleLineTitle="true"
+            app:summary="Apply dark mode."
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="FileTree Configuration"
+        app:iconSpaceReserved="false">
+        <SwitchPreferenceCompat
+            app:key="recursive_expansion"
+            app:title="Enable Recursive Expansion"
+            android:singleLineTitle="true"
+            app:summary="To enable the recursive expansion of files."
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="recursive_contraction"
+            app:title="Enable Recursive Contraction"
+            android:singleLineTitle="true"
+            app:summary="To enable the recursive contraction of files."
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="file_map"
+            app:title="Enable File Map"
+            android:singleLineTitle="true"
+            app:summary="To enable the file map."
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="layout_animation"
+            app:title="Enable Layout Animation"
+            android:singleLineTitle="true"
+            app:summary="To enable the layout animation."
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="item_animator"
+            app:title="Enable Item Animator"
+            android:singleLineTitle="true"
+            app:summary="To enable the item animator."
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="item_view_caching"
+            app:title="Enable Item View Caching"
+            android:singleLineTitle="true"
+            app:summary="To enable the item view caching."
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="recycler_item_view"
+            app:title="Enable Recycler Item View"
+            android:singleLineTitle="true"
+            app:summary="To enable the recycler item view."
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory app:title="FileList Configuration"
+        app:iconSpaceReserved="false">
+        <SwitchPreferenceCompat
+            app:key="h"
+            app:title="Dynamic Colors"
+            android:singleLineTitle="true"
+            app:summary="To apply dynamic colors (Restart needed for changes)." 
+            app:iconSpaceReserved="false"/>
+        <SwitchPreferenceCompat
+            app:key="k"
+            app:title="Dark Mode"
+            android:singleLineTitle="true"
+            app:summary="Apply dark mode."
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#A8C8FB</item>
+        <item name="colorOnPrimary">#062D6E</item>
+        <item name="colorPrimaryContainer">#0742A0</item>
+        <item name="colorOnPrimaryContainer">#D3E3FD</item>
+        <item name="colorSecondary">#A8C8FB</item>
+        <item name="colorOnSecondary">#062D6E</item>
+        <item name="colorSecondaryContainer">#2E436E</item>
+        <item name="colorOnSecondaryContainer">#D3E3FD</item>
+        <item name="colorTertiary">#6DD48B</item>
+        <item name="colorOnTertiary">#0B3819</item>
+        <item name="colorTertiaryContainer">#0F5324</item>
+        <item name="colorOnTertiaryContainer">#C3EED0</item>
+        <item name="colorError">#FEB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="colorErrorContainer">#93000A</item>
+        <item name="colorOnErrorContainer">#FFDAD7</item>
+        <item name="android:colorBackground">#10131A</item>
+        <item name="colorOnBackground">#E2E2EC</item>
+        <item name="colorSurface">#10131A</item>
+        <item name="colorOnSurface">#E2E2EC</item>
+        <item name="colorSurfaceVariant">#10131A</item>
+        <item name="colorOnSurfaceVariant">#C3C6D7</item>
+        <item name="colorOutline">#8D909F</item>
+        <item name="colorOutlineVariant">#424554</item>
+        <item name="colorSurfaceInverse">#E2E2EC</item>
+        <item name="colorOnSurfaceInverse">#2D3037</item>
+        <item name="colorPrimaryInverse">#2E436E</item>
+        <item name="colorSurfaceDim">#10131A</item>
+        <item name="colorSurfaceBright">#363940</item>
+        <item name="colorSurfaceContainerLowest">#0B0E15</item>
+        <item name="colorSurfaceContainerLow">#181B22</item>
+        <item name="colorSurfaceContainer">#1C1F26</item>
+        <item name="colorSurfaceContainerHigh">#272A31</item>
+        <item name="colorSurfaceContainerHighest">#31343B</item>
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>        
+        
+        <item name="fontFamily">@font/font</item>
+        <item name="android:fontFamily">@font/font</item>
+        
+        <item name="switchPreferenceCompatStyle">@style/AppTheme.SwitchPreference</item>
+    </style>
+    <style name="AppTheme.SwitchPreference" parent="Preference.SwitchPreference.Material">
+        <item name="android:widgetLayout">@layout/layout_material_switch_style</item>
+    </style>
+</resources>

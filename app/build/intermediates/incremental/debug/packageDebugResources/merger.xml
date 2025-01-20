@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res"><file name="ic_application_settings" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/drawable/ic_application_settings.xml" qualifiers="" type="drawable"/><file name="ic_launcher_background" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/drawable/ic_launcher_background.xml" qualifiers="" type="drawable"/><file name="ic_navigate_up" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/drawable/ic_navigate_up.xml" qualifiers="" type="drawable"/><file name="ic_launcher_foreground" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" qualifiers="v24" type="drawable"/><file name="font" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/font/font.ttf" qualifiers="" type="font"/><file name="activity_main" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="activity_preferences" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/layout/activity_preferences.xml" qualifiers="" type="layout"/><file name="layout_material_switch_style" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/layout/layout_material_switch_style.xml" qualifiers="" type="layout"/><file name="menu" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/menu/menu.xml" qualifiers="" type="menu"/><file name="ic_launcher" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-hdpi/ic_launcher.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-mdpi/ic_launcher.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file name="ic_launcher_round" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/values/colors.xml" qualifiers=""/><file path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">Orbit-VFMS</string></file><file path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/values/themes.xml" qualifiers=""><style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0B58CE</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#D3E3FD</item>
+        <item name="colorOnPrimaryContainer">#051C48</item>
+        <item name="colorSecondary">#0B58CE</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#D3E3FD</item>
+        <item name="colorOnSecondaryContainer">#051C48</item>
+        <item name="colorTertiary">#1C863B</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
+        <item name="colorTertiaryContainer">#C3EED0</item>
+        <item name="colorOnTertiaryContainer">#072710</item>
+        <item name="colorError">#BA1A1A</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorErrorContainer">#FFDAD7</item>
+        <item name="colorOnErrorContainer">#410102</item>
+        <item name="android:colorBackground">#F9F8FE</item>
+        <item name="colorOnBackground">#181B22</item>
+        <item name="colorSurface">#F9F8FE</item>
+        <item name="colorOnSurface">#181B22</item>
+        <item name="colorSurfaceVariant">#F9F8FE</item>
+        <item name="colorOnSurfaceVariant">#2D3037</item>
+        <item name="colorOutline">#737685</item>
+        <item name="colorOutlineVariant">#C3C6D7</item>
+        <item name="colorSurfaceInverse">#2D3037</item>
+        <item name="colorOnSurfaceInverse">#F0F0FA</item>
+        <item name="colorPrimaryInverse">#D4E2FF</item>
+        <item name="colorSurfaceDim">#D9D9E3</item>
+        <item name="colorSurfaceBright">#F9F8FE</item>
+        <item name="colorSurfaceContainerLowest">#FFFFFF</item>
+        <item name="colorSurfaceContainerLow">#F3F3FD</item>
+        <item name="colorSurfaceContainer">#EDEDF7</item>
+        <item name="colorSurfaceContainerHigh">#E7E7F1</item>
+        <item name="colorSurfaceContainerHighest">#E2E2EC</item>
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        
+        <item name="fontFamily">@font/font</item>
+        <item name="android:fontFamily">@font/font</item>
+        
+        <item name="switchPreferenceCompatStyle">@style/AppTheme.SwitchPreference</item>        
+    </style><style name="AppTheme.SwitchPreference" parent="Preference.SwitchPreference.Material">
+        <item name="android:widgetLayout">@layout/layout_material_switch_style</item>
+    </style></file><file path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/values-night/colors.xml" qualifiers="night-v8"/><file path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#A8C8FB</item>
+        <item name="colorOnPrimary">#062D6E</item>
+        <item name="colorPrimaryContainer">#0742A0</item>
+        <item name="colorOnPrimaryContainer">#D3E3FD</item>
+        <item name="colorSecondary">#A8C8FB</item>
+        <item name="colorOnSecondary">#062D6E</item>
+        <item name="colorSecondaryContainer">#2E436E</item>
+        <item name="colorOnSecondaryContainer">#D3E3FD</item>
+        <item name="colorTertiary">#6DD48B</item>
+        <item name="colorOnTertiary">#0B3819</item>
+        <item name="colorTertiaryContainer">#0F5324</item>
+        <item name="colorOnTertiaryContainer">#C3EED0</item>
+        <item name="colorError">#FEB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="colorErrorContainer">#93000A</item>
+        <item name="colorOnErrorContainer">#FFDAD7</item>
+        <item name="android:colorBackground">#10131A</item>
+        <item name="colorOnBackground">#E2E2EC</item>
+        <item name="colorSurface">#10131A</item>
+        <item name="colorOnSurface">#E2E2EC</item>
+        <item name="colorSurfaceVariant">#10131A</item>
+        <item name="colorOnSurfaceVariant">#C3C6D7</item>
+        <item name="colorOutline">#8D909F</item>
+        <item name="colorOutlineVariant">#424554</item>
+        <item name="colorSurfaceInverse">#E2E2EC</item>
+        <item name="colorOnSurfaceInverse">#2D3037</item>
+        <item name="colorPrimaryInverse">#2E436E</item>
+        <item name="colorSurfaceDim">#10131A</item>
+        <item name="colorSurfaceBright">#363940</item>
+        <item name="colorSurfaceContainerLowest">#0B0E15</item>
+        <item name="colorSurfaceContainerLow">#181B22</item>
+        <item name="colorSurfaceContainer">#1C1F26</item>
+        <item name="colorSurfaceContainerHigh">#272A31</item>
+        <item name="colorSurfaceContainerHighest">#31343B</item>
+        
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>        
+        
+        <item name="fontFamily">@font/font</item>
+        <item name="android:fontFamily">@font/font</item>
+        
+        <item name="switchPreferenceCompatStyle">@style/AppTheme.SwitchPreference</item>
+    </style><style name="AppTheme.SwitchPreference" parent="Preference.SwitchPreference.Material">
+        <item name="android:widgetLayout">@layout/layout_material_switch_style</item>
+    </style></file><file name="backup_rules" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/xml/backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/xml/data_extraction_rules.xml" qualifiers="" type="xml"/><file name="preferences" path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/main/res/xml/preferences.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/storage/emulated/0/AndroidIDEProjects/Orbit-VFMS/app/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>

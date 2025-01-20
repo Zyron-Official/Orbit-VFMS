@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zyron.orbit.widget.InterceptableDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:openDrawer="start"
+    android:fitsSystemWindows="false"
+    style="@style/Widget.Material3.DrawerLayout"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextAppearance="?attr/textAppearanceTitleLarge"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Widget.Material3.Toolbar.Surface" />
+
+        <com.zyron.orbit.widget.FileListView
+            android:id="@+id/file_list_view"
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:layout_constraintBottom_toTopOf="@id/select_directory" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/select_directory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="SELECT DIRECTORY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            style="@style/Widget.Material3.Button" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        app:drawerLayoutCornerSize="4dp"
+        android:padding="8dp"
+        android:layout_gravity="start"
+        style="@style/Widget.Material3.NavigationView">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scrollbarSize="0dp"
+            android:fillViewport="true">
+
+            <android.widget.HorizontalScrollView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scrollbarSize="0dp"
+                android:fillViewport="true">
+
+                <com.zyron.orbit.widget.FileTreeView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    app:fileTreeAnimation="FallDown"
+                    android:id="@+id/file_tree_view" />
+
+            </android.widget.HorizontalScrollView>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </com.google.android.material.navigation.NavigationView>
+
+</com.zyron.orbit.widget.InterceptableDrawerLayout>

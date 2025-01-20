@@ -1,0 +1,36 @@
+com.zyron.filetree
+anim default_anim
+anim default_animation
+anim fall_down
+anim fall_down_animation
+anim rotate_in
+anim rotate_in_animation
+anim scale_up
+anim scale_up_animation
+anim slide_in
+anim slide_in_animation
+attr fileMapEnabled
+attr fileMapMaxSize
+attr fileTreeAnimation
+attr fileTreeAnimationEnabled
+attr itemViewCacheSize
+attr itemViewCachingEnabled
+attr recyclerItemViewCount
+attr recyclerItemViewEnabled
+drawable ic_chevron
+drawable ic_file
+drawable ic_folder
+drawable item_activated_background
+drawable item_selected_background
+drawable item_view_background
+id Default
+id FallDown
+id RotateIn
+id ScaleUp
+id SlideIn
+id chevronIconView
+id fileIconView
+id fileNameView
+id state
+layout filetree_view_item
+styleable FileTreeView fileMapEnabled fileMapMaxSize fileTreeAnimation fileTreeAnimationEnabled itemViewCacheSize itemViewCachingEnabled recyclerItemViewCount recyclerItemViewEnabled

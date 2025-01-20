@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.zyron.orbit.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.zyron.orbit.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.6/com.zyron.orbit.app-mergeDebugResources-40:/layout/activity_preferences.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.6/com.zyron.orbit.app-main-43:/layout/activity_preferences.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.6/com.zyron.orbit.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.6/com.zyron.orbit.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.6/com.zyron.orbit.app-mergeDebugResources-40:/layout/layout_material_switch_style.xml",
+        "source": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.6/com.zyron.orbit.app-main-43:/layout/layout_material_switch_style.xml"
+    }
+]
